@@ -6,9 +6,21 @@ Setup for running Tricentis Testautomation Obstacle Course with Robot Framework.
 
 ## Preparation
 
+### Requirements
+
+* Python 3.7 ->
+* Some sort of browser, Chrome or Firefox recommended
+
+### Pre setup
+
+* Clone this repository, or download if you so desire
+   * ```git clone https://github.com/3zk1m0/RF-Training```
+* Open the repository
+   * ```cd TF-Training```
+
 ### *optional* Virtual Enviroment
 
-1. Install virutalenv - ```pip install virtualenv```
+1. Install virtualenv - ```pip install virtualenv```
 2. Create enviroment - ```virtualenv rf-env```
 3. Activate enviroment
     * *Powershell* requires permission to run scripts
@@ -22,7 +34,7 @@ Setup for running Tricentis Testautomation Obstacle Course with Robot Framework.
    
 ### Project setup
 
-1. Install dependecys - ```pip install -r requirements.txt```
+1. Install dependencies - ```pip install -r requirements.txt```
 2. Install webdriver - ```webdrivermanager chrome```
 3. Test that example file runs without failure - ```robot obstacle_tests.robot```
 
