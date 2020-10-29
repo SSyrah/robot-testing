@@ -16,7 +16,7 @@ Setup for running Tricentis Testautomation Obstacle Course with Robot Framework.
 * Clone this repository, or download if you so desire
    * ```git clone https://github.com/3zk1m0/RF-Training```
 * Open the repository
-   * ```cd TF-Training```
+   * ```cd RF-Training```
 
 ### *optional* Virtual Enviroment
 
